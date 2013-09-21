@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+        
+    <fragment android:name="com.kimkong.obligfem.fragments.NewFragment"
+        android:id="@+id/new_fragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+
+    <fragment android:name="com.kimkong.obligfem.fragments.RegistrationsFragment"
+        android:id="@+id/registrations_fragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+    
+    <fragment android:name="com.kimkong.obligfem.fragments.ConfigurationsFragment"
+        android:id="@+id/configurations_fragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"/>
+    
+</RelativeLayout>
